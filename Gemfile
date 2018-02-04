@@ -12,6 +12,11 @@ gem 'rails', '5.1.4'
 gem 'bootstrap-sass', '3.3.7'
 # Password encryption 
 gem 'bcrypt', '3.1.11'
+# Generate random users
+gem 'faker', '1.7.3'
+# Pagination
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
