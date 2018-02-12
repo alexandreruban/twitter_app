@@ -40,6 +40,10 @@ gem 'jbuilder', '~> 2.5'
 #Added manually for twitter clone
 gem 'jquery-rails', '4.1.1'
 
+#Images
+gem 'carrierwave', '1.2.2'
+gem 'mini_magick', '4.7.0'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -74,6 +78,7 @@ end
 #Added manually for twitter clone
 group :production do
   gem 'pg', '0.18.4'
+  gem 'fog', '1.42'
 end
 
 
